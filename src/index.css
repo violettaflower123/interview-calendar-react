@@ -168,6 +168,12 @@ thead tr:nth-child(2) {
   background-color: #ff3131;
   border-radius: 50%;
   color: white;
+  margin: 0px auto;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 .calendar-date-arrow {
