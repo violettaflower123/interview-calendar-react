@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.calendar {
+  width: 740px;
+  margin: 30px auto;
+}
+
+.calendar-title-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0px 30px;
+}
+
+.slot {
+  height: 80px;
+  position: relative;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tbody {
+  border-top: 20px solid transparent;
+}
+
+thead tr th,
+td {
+  border: none;
+}
+
+th,
+td {
+  border: 1px solid #e6e6e6;
+  padding: 2px;
+  text-align: center;
+}
+
+tr td:first-of-type {
+  border: none;
+  max-width: 40px;
+  width: 40px;
+  color: #c0c0c0;
+  transform: translate(-2px, -24px);
+}
+
+tr td:nth-child(2) {
+  border-left: none;
+}
+
+tr td:last-child {
+  border-right: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+thead {
+  background-color: #f6f6f6;
+  border-top: 2px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+thead th {
+  padding: 0;
+}
+
+.slot-button {
+  width: 95px;
+  height: 100%;
+  border: none;
+  background-color: white;
+}
+
+.slot-button.selected {
+  background-color: lightgray;
+}
+
+.slot-button.busy {
+  background-color: gray;
+}
+
+.slot-button:not(.busy):not(.free) {
+  background-color: white;
+}
+
+.appointment {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: self-end;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0px 10px;
+}
+
+.app-delete button {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: #ff3131;
+  cursor: pointer;
+}
+
+.footer h5 {
+  font-size: 1.2rem;
+  color: #ff3131;
+}
+
+.calendar-app-btn {
+  margin-left: 5px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 40px;
+  color: #ff3131;
+}
+
+.calendar-date {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+thead tr:last-child {
+  height: 45px;
+}
+
+thead tr:first-child {
+  font-size: 0.8em;
+}
+
+thead tr:nth-child(2) {
+  height: 40px;
+}
+
+.active {
+  background-color: #ff3131;
+  border-radius: 50%;
+  color: white;
+}
+
+.calendar-date-arrow {
+  font-size: 30px;
+  color: #ff3131;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 740px) {
+  .calendar {
+    width: 100vw;
+    margin: 10px auto;
+  }
+
+  .slot-button {
+    width: 100%;
+  }
+
+  .slot {
+    height: 40px;
+  }
+  thead tr:first-child {
+    font-size: 0.6em;
+  }
+
+  tr td:first-of-type {
+    max-width: 30px;
+    width: 30px;
+    font-size: 0.6em;
+  }
+}
