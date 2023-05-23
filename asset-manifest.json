@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/interview-calendar-react/static/css/main.0df19d40.css",
-    "main.js": "/interview-calendar-react/static/js/main.984afdad.js",
+    "main.css": "/interview-calendar-react/static/css/main.31d6cfe0.css",
+    "main.js": "/interview-calendar-react/static/js/main.d66cc907.js",
     "static/js/787.12e263d8.chunk.js": "/interview-calendar-react/static/js/787.12e263d8.chunk.js",
     "index.html": "/interview-calendar-react/index.html",
-    "main.0df19d40.css.map": "/interview-calendar-react/static/css/main.0df19d40.css.map",
-    "main.984afdad.js.map": "/interview-calendar-react/static/js/main.984afdad.js.map",
+    "main.d66cc907.js.map": "/interview-calendar-react/static/js/main.d66cc907.js.map",
     "787.12e263d8.chunk.js.map": "/interview-calendar-react/static/js/787.12e263d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0df19d40.css",
-    "static/js/main.984afdad.js"
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.d66cc907.js"
   ]
 }
